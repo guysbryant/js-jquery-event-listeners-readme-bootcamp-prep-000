@@ -10,3 +10,7 @@ function getIt(){
 }
 
 });
+
+function frameIt(){
+  
+}
