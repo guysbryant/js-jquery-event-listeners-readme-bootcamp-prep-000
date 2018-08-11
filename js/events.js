@@ -3,7 +3,10 @@
 $(document).ready(function(){
 
 // call functions here
-
+getIt();
+frameIt();
+pressIt();
+submitIt();
 
 });
 function getIt(){
@@ -11,8 +14,6 @@ function getIt(){
     alert('Hey!');
   })
 }
-
-
 
 function frameIt(){
   $('img').load(function(){
