@@ -23,8 +23,7 @@ function frameIt(){
 
 function pressIt(){
   $('input').keydown(function(e){
-    console.log(e.which);
-    if (e === 'G'){
+    if (e.which === '71'){
       alert("You pressed G.")
     }
   })
