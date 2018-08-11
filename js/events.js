@@ -16,3 +16,7 @@ function frameIt(){
     this.className = 'tasty';
   })
 }
+
+function pressIt(){
+  
+}
