@@ -9,7 +9,7 @@ function getIt(){
   })
 }
 
-});
+
 
 function frameIt(){
   $('img').load(function(){
@@ -30,3 +30,5 @@ function submitIt(){
     alert("Your form is going to be submitted now.");
   })
 }
+
+});
